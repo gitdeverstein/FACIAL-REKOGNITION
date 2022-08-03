@@ -1,0 +1,33 @@
+.Container{
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100vh;
+    width: 100%;
+}
+.leftContainer{
+    height:500px;
+    background-repeat:no-repeat;
+    border-radius:0;
+}
+
+.rightContainer{
+    display: flex;
+    background-repeat:no-repeat;
+    border-radius:0;
+    flex-wrap: wrap;
+    margin:-10px;
+}
+
+td{
+    text-decoration: underline;
+}
+
+.rightContainer>*{
+    flex: 1 1 160px;
+    margin: 10px;
+}
+
+.inputFile{
+    padding:10px 20px;
+}
