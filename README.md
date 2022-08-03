@@ -1,3 +1,7 @@
+## voici le lien du déployement sur Heroku: https://aws-rekognition.herokuapp.com/
+### Si ce lien ne marche pas , vous pourez télécharger ce projet en ZIP, puis l'extraire, ensuite taper npm install, 
+et enfin npm start  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
