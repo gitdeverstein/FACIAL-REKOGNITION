@@ -133,7 +133,8 @@ function Input() {
                     </div>
                 </div>
 
-                <div className="rightContainer">
+                {(image!==undefined && lowAge!==undefined) && <>
+                    <div className="rightContainer">
                     <div>
                         <td className="py-5 pr-5 pl-5 font-semibold">AgeRange</td>
                         <p>{lowAge}</p>
@@ -177,6 +178,8 @@ function Input() {
                         <p>{sunGlassesConfidence}</p>
                     </div>
                 </div>
+                </>
+                }
             </div>
         </>
     );
